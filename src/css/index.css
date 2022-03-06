@@ -1,0 +1,155 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,500;1,400&display=swap");
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Roboto", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    /* font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5; */
+    color: #6b708d;
+    background-color: #e5e5e5;
+}
+
+
+/** HEADERS H1, H2, H3, H4, H5, H6 */
+
+h1 {
+    font-family: Roboto;
+    font-weight: bold;
+    font-size: 60px;
+    line-height: 70px;
+    color: #292e47;
+}
+
+p {
+    color: #6b708d;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+}
+
+a {
+    color: #072ac8;
+    text-decoration: none;
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1rem;
+}
+
+.btn-link {
+    font-family: "Roboto";
+    text-decoration: none;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 38px;
+    color: #6b708d;
+}
+
+nav .a {
+    font-size: 1.063rem;
+    font-weight: 200;
+}
+
+nav .menu-center {
+    width: 18.438rem;
+}
+
+.logo {
+    width: 3.75rem;
+    height: 1.125rem;
+}
+
+.contact-button {
+    width: 150px;
+    height: 52px;
+}
+
+header {
+    margin-top: 2.5rem;
+    height: auto;
+    width: 68.688rem;
+}
+
+.header {
+    align-content: center;
+}
+
+.container {
+    width: 100%;
+    height: auto;
+    /* padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto; */
+}
+
+.slide-welcome {
+    margin-top: 70px;
+    height: 650px;
+}
+
+.slide-welcome p {
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 30px;
+    color: #6b708d;
+}
+
+._slide {
+    background-image: url("../img/hero_image.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 570px;
+    height: 650px;
+}
+
+.slide-card {
+    width: 190px;
+    height: 216px;
+    border-radius: 30px;
+    background-color: #fff;
+    padding: auto;
+    box-shadow: 0px 46.5686px 93.1373px rgba(0, 0, 0, 0.1);
+}
+
+.slide-card-shadow {
+    box-shadow: 0px 38.7755px 77.551px rgba(0, 0, 0, 0.1);
+    border-radius: 30px;
+}
+
+.slide-card-spacer {
+    width: 190px;
+    height: 216px;
+}
+
+.bullets {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+.bullets li {
+    background: none repeat scroll 0 0 #ccc;
+    border: medium none;
+    cursor: pointer;
+    display: inline-block;
+    float: none;
+    height: 10px;
+    width: 10px;
+}
+
+.bullets li:hover {
+    color: #000;
+}
+
+.bullets li:last-child {
+    margin-right: 0;
+}
+
+.bullets li {
+    border-radius: 1000px;
+}
