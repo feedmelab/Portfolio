@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,500;1,400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;1,400;1,500&family=Roboto:ital,wght@0,500;1,400&display=swap");
 body {
     margin: 0;
     padding: 0;
@@ -142,14 +142,37 @@ header {
     width: 10px;
 }
 
-.bullets li:hover {
-    color: #000;
-}
-
 .bullets li:last-child {
     margin-right: 0;
 }
 
 .bullets li {
     border-radius: 1000px;
+    margin-right: 0.4rem;
+}
+
+.text-neutral {
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 0.815rem;
+    line-height: 1.063rem;
+    color: #292e47;
+}
+
+.text-card-back {
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 0.699rem;
+    line-height: 1.063rem;
+    color: #9b9b9a;
+}
+
+.text-card-p {
+    font-family: "Roboto";
+    font-size: 0.75rem;
+    line-height: 14px;
+    text-align: center;
+    color: #6b708d;
 }
