@@ -229,3 +229,15 @@ header {
     color: #072ac8;
     margin-top: 27px !important;
 }
+
+.customer-testimonials {
+    margin-top: 13rem;
+    height: 622px;
+    margin-right: 1vw;
+    margin-left: 1vw;
+    border: 1px solid red;
+    background-image: url("../img/background-testimonials.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
