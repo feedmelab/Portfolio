@@ -21,6 +21,14 @@ h1 {
     color: #292e47;
 }
 
+h3 {
+    font-family: "Roboto";
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 47px;
+    color: #292e47;
+}
+
 p {
     color: #6b708d;
     font-weight: 400;
@@ -179,4 +187,45 @@ header {
 
 .customer-brands {
     margin-top: 130px;
+}
+
+.recent-projects {
+    margin-top: 212px;
+    margin-bottom: 3rem;
+}
+
+.cards-container {
+    margin-top: 99px;
+}
+
+.card {
+    width: 340px;
+    height: 444px;
+    box-shadow: 0px 28.7755px 37.551px rgba(0, 0, 0, 0.1);
+}
+
+.card-title {
+    font-family: "Roboto";
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 28px;
+    color: #292e47;
+}
+
+.card-text {
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 17px;
+    line-height: 150%;
+    color: #6b708d;
+}
+
+.cards-container .btn-link {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 17px;
+    color: #072ac8;
+    margin-top: 27px !important;
 }
