@@ -232,12 +232,112 @@ header {
 
 .customer-testimonials {
     margin-top: 13rem;
+    width: 1320px;
     height: 622px;
-    margin-right: 1vw;
-    margin-left: 1vw;
-    border: 1px solid red;
     background-image: url("../img/background-testimonials.png");
     background-position: center;
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: center;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    align-content: center;
+    padding: 2rem;
+    margin-bottom: 10rem;
+}
+
+.customer-testimonials p {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 38px;
+    text-align: center;
+    color: #ffc600;
+}
+
+.our-services {
+    margin-bottom: 10rem;
+}
+
+.our-services .card {
+    padding: 1.5rem;
+    height: auto;
+}
+
+.our-services .card-img-top {
+    width: 80px;
+    margin-left: 1.2rem;
+}
+
+.help-subscribe {
+    margin-top: 5rem;
+    width: 1320px;
+    height: 500px;
+    background-color: #ffc600;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    align-content: center;
+    padding: 2rem;
+    margin-bottom: 10rem;
+}
+
+.help-subscribe h3 {
+    color: #292e47;
+}
+
+.form-box {
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    justify-content: space-around;
+    align-content: center;
+    align-items: center;
+    margin-top: 2.6rem;
+    width: 100%;
+}
+
+.help-subscribe .subscribe-field {
+    height: 80px;
+    width: 393px;
+    border-radius: unset;
+    font-family: "Roboto", "FontAwesome";
+    font-size: 1.063rem;
+    line-height: 150%;
+    text-align: left;
+    color: #292e47;
+}
+
+.btn-subscribe {
+    width: 198px;
+    border-radius: unset;
+    height: 80px;
+    margin-left: 2rem;
+    /* Primary/Default */
+    background: #072ac8;
+}
+
+.footer {
+    height: 300px;
+    width: 100%;
+    padding: 4rem;
+}
+
+.footer a {
+    color: #6b708d;
+    font-size: 1.065rem;
+}
+
+.footer img {}
+
+.footer p {
+    font-family: "Roboto";
+    margin-top: 0.8rem;
+    line-height: 26px;
+    color: #6b708d;
 }
