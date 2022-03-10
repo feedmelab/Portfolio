@@ -25,7 +25,7 @@
                         <a class="" class="active" href="#">Home</a>
                     </div>
                     <div class="col-md-4 text-center">
-                        <a class="" href="project.html">Projects</a>
+                        <a class="" href="#l">Projects</a>
                     </div>
                     <div class="col-md-4 text-center">
                         <a class="" href="#">Services</a>
@@ -38,10 +38,10 @@
         </nav>
     </header>
     <main>
-        <section class="container slide-welcome">
+        <section class="container slide-welcome ">
             <div class="row d-flex align-items-center">
-                <div class="col">
-                    <div class="container">
+                <div class="col order-md-0 order-sm-1">
+                    <div class="container ">
                         <div class="col">
                             <h1>Empower Your<br />Business With <br />Stunning Design!</h1>
                         </div>
@@ -58,9 +58,9 @@
                         </div>
                     </div>
                 </div>
-                <div class="col text-center">
-                    <div class="container">
-                        <div class="_slide d-flex flex-column">
+                <div class="col order-md-1 order-sm-0 text-center">
+                    <div class="container mt-md-5 mt-sm-5 ">
+                        <div class="_slide d-flex flex-column ">
                             <div class="slide-card d-flex flex-column justify-content-start pt-2">
                                 <div class="mt-2 align-self-start ms-4 text-card-back">Back</div>
                                 <div class="mt-3 align-self-start ms-4 text-neutral">Choose your card</div>
@@ -84,7 +84,7 @@
                             </div>
                             <div class="slide-card-spacer align-self-center"> </div>
                             <div class="slide-card slide-card-shadow align-self-end d-flex flex-column justify-content-center">
-                                <div class="align-self-center"><img src="./src/img/group_50.svg" alt="" srcset="" /></div>
+                                <div class="align-self-center"><img src="./src/img/group_50.svg" alt="" /></div>
                                 <div class="align-self-center text-card-p mt-4">Project has been accepted.</div>
                             </div>
                         </div>
@@ -104,10 +104,10 @@
             </div>
         </section>
         <section class="recent-projects">
-            <div class="container">
+            <div class="container ">
                 <h3>Recent Projects</h3>
-                <div class="row d-flex cards-container justify-content-between">
-                    <div class="col d-flex justify-content-center">
+                <div id="recent_posts_hook" class="row d-flex cards-container justify-content-between">
+                    <!-- <div class="col d-flex justify-content-center mb-md-4">
                         <div class="card">
                             <img class="card-img-top" src="./src/img/simplify.svg" alt="Card image cap" />
                             <div class="card-body d-flex flex-column justify-content-evenly">
@@ -118,7 +118,7 @@
                         </div>
                     </div>
 
-                    <div class="col d-flex justify-content-center">
+                    <div class="col d-flex justify-content-center mb-md-4">
                         <div class="card">
                             <img class="card-img-top" src="./src/img/dashcoin.svg" alt="Card image cap" />
                             <div class="card-body d-flex flex-column justify-content-evenly">
@@ -138,7 +138,7 @@
                                 <a href="#" class="btn-link">Learn more</a>
                             </div>
                         </div>
-                    </div>
+                    </div> -->
 
                 </div>
         </section>
@@ -197,8 +197,8 @@
                 <div class="row">
                     <div class="col">
                         <div class="form-group has-feedback form-box">
-                            <input type="text" class="subscribe-field form-control fa fa-envelope" placeholder=" Enter your email" />
-                            <button class="btn btn-primary btn-subscribe">Subscribe</button>
+                            <form><input type="text" class="subscribe-field form-control fa fa-envelope" required placeholder=" Enter your email" />
+                                <button class="btn btn-primary btn-subscribe">Subscribe</button></form>
                         </div>
 
                     </div>
@@ -243,6 +243,9 @@
             </div>
         </section>
     </footer>
+    <script>
+        const page = 0;
+    </script>
     <script src="src/js/index.js "></script>
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->

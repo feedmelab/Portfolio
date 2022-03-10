@@ -37,12 +37,16 @@ p {
 }
 
 a {
-    color: #072ac8;
+    color: #6b708d;
     text-decoration: none;
     font-family: "Roboto";
     font-style: normal;
     font-weight: 500;
     font-size: 1rem;
+}
+
+.cover {
+    object-fit: cover;
 }
 
 .btn-primary {
@@ -92,10 +96,10 @@ header {
 .container {
     width: 100%;
     height: auto;
-    padding-right: 2rem;
+    /* padding-right: 2rem;
     padding-left: 2rem;
     margin-right: auto;
-    margin-left: auto;
+    margin-left: auto; */
 }
 
 .slide-welcome {
@@ -316,6 +320,7 @@ header {
     line-height: 150%;
     text-align: left;
     color: #292e47;
+    background-color: white !important;
 }
 
 .btn-subscribe {

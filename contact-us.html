@@ -25,7 +25,7 @@
                         <a class="" href="index.html">Home</a>
                     </div>
                     <div class="col-md-4 text-center">
-                        <a class="active" href="project.html">Projects</a>
+                        <a class="active" href="#">Projects</a>
                     </div>
                     <div class="col-md-4 text-center">
                         <a class="" href="#">Services</a>
@@ -41,20 +41,21 @@
         <section class="one-project">
             <div class="container">
                 <h1>Contact us</h1>
-                <form>
+                <form class="save_data" id="save_data">
                     <div class="form-row">
+                        <div id="message-hook" class="d-flex justify-content-end"></div>
                         <div class="form-group mt-5">
                             <label for="full-name">Full Name *</label>
-                            <input type="text" class="form-control" id="full-name" placeholder="Enter your full name" />
+                            <input type="text" class="form-control" id="full_name" required placeholder="Enter your full name" />
                         </div>
                         <div class="form-group mt-5 d-flex flex-row">
                             <div class="form-group col pe-3">
                                 <label for="email">Email</label>
-                                <input type="email" class="form-control" id="email" placeholder="Email" />
+                                <input required type="email" class="form-control" id="email" placeholder="Enter your email address" />
                             </div>
                             <div class="form-group col ps-3">
                                 <label for="phone">Phone</label>
-                                <input type="number" class="form-control" id="phone" placeholder="Password" />
+                                <input type="number" class="form-control" id="phone" placeholder="Ener your phone number" />
                             </div>
                         </div>
                     </div>
@@ -62,7 +63,7 @@
                         <label for="message">Message</label>
                         <textarea class="form-control" id="message" placeholder="Write yor message here..." rows="10"> </textarea>
                     </div>
-                    <button type="submit" class="btn btn-primary w-100 mt-5 p-3">Submit</button>
+                    <button type="submit" id="save_btn" class="btn btn-primary w-100 mt-5 p-3">Submit</button>
                 </form>
             </div>
         </section>
@@ -103,6 +104,9 @@
             </div>
         </section>
     </footer>
+    <script>
+        const page = 3;
+    </script>
     <script src="src/js/index.js "></script>
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
