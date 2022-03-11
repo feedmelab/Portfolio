@@ -54,6 +54,7 @@ const fillPage1 = (data) => {
         </div>
     </div>`;
     const hook = document.getElementById("one-project-hook");
+    hook.innerHTML = "";
     hook.insertAdjacentHTML("beforeend", strHtml);
 };
 const submitForm = () => {
